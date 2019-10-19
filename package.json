@@ -16,5 +16,21 @@
   "bugs": {
     "url": "https://github.com/bensonjustin/express-gallery/issues"
   },
-  "homepage": "https://github.com/bensonjustin/express-gallery#readme"
+  "homepage": "https://github.com/bensonjustin/express-gallery#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bookshelf": "^1.0.0",
+    "connect-redis": "^4.0.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.2",
+    "knex": "^0.17.0",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.12.1",
+    "redis": "^2.8.0"
+  }
 }

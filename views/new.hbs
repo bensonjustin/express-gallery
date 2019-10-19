@@ -1,0 +1,14 @@
+<h1>New Photo</h1>
+<div>{{#if error}}
+    <p>{{error.errorMessage}}</p>
+    {{/if}}
+</div>
+<form action="/gallery" method="post">
+    <label for="author">Author</label>
+    <input type="text" name="author" id="author">
+    <label for="link">Link</label>
+    <input type="text" name="link" id="link">
+    <label for="description">Description</label>
+    <input type="text" name="description" id="description">
+    <button id="submit">Submit</button>
+</form>

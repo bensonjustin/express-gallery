@@ -1,0 +1,14 @@
+<h1>Photo {{id}}</h1>
+<div>{{#if error}}
+    <p>{{error.errorMessage}}</p>
+    {{/if}}
+</div>
+<div>
+    <h3>Author: {{author}}</h3>
+    <img src="{{link}}" alt="">
+    <p>Description: {{description}}</p>
+</div>
+<a href="/gallery/{{id}}/edit"><button id="edit">Edit</button></a>
+<form action="/gallery/{{id}}?_method=DELETE" method="post">
+    <a href="/gallery"><button id="delete">Delete</button></a>
+</form>

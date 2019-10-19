@@ -1,0 +1,10 @@
+<h1>All Photos</h1>
+<div>{{#if error}}
+    <p>{{error.errorMessage}}</p>
+    {{/if}}
+</div>
+{{#each gallery}}
+<p>{{author}}</p>
+<img src="{{link}}" alt="">
+<p>{{description}}</p>
+{{/each}}
